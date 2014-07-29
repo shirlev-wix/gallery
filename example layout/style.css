@@ -1,0 +1,43 @@
+
+.header {
+background-color: black;
+text-align: center;
+color: white;
+}
+
+footer {
+background-color: black;
+text-align: center;
+color: white;
+}
+
+section {
+border: 3px solid #000;
+}
+section:before,
+section:after {
+content: "";
+display: table;
+}
+section:after {
+clear: both;
+}
+section {
+clear: both;
+}
+
+.content {
+background-color: lightgreen;
+display: table-cell;
+width: 70%;
+padding: 20px;
+}
+
+
+
+.aside {
+background-color: lightgrey;
+display: table-cell;
+width: 30%;
+padding: 20px;
+}
